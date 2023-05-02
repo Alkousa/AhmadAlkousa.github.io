@@ -126,7 +126,7 @@ canvas {
   font-size: 1.5rem;
 }
 .nav li a {
-  color: rgb(238, 240, 238);
+  color: rgb(255, 232, 223);
   text-decoration: none;
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -140,16 +140,17 @@ canvas {
   border: none;
   border-radius: 0px;
   text-decoration: none;
-  color: rgb(246, 246, 246);
+  color: rgb(240, 240, 240);
   transition: all 0.3s ease 0s;
   background-color: rgb(0, 0, 0);
   font-family: "VT323";
   font-size: 1.5rem;
-  border: 2px rgb(163, 6, 6) solid;
-  border-radius: 15px;
+  border: 1px rgb(189, 70, 24) solid;
+  border-radius: 18px;
 }
 .button:hover {
-  color: rgb(241, 244, 233);
+  border: 1px rgb(225, 225, 225) solid;
+  color: rgb(255, 255, 255);
   text-shadow: 0.3em 0 0 #b00000, -0.1em -0.1em 0 #00731b, 0.05em 0.1em 0 blue;
   animation: glitch 400ms infinite;
 }
@@ -285,6 +286,9 @@ textarea {
 .submit:hover {
   background-color: #650000;
 }
+.email:hover {
+  background-color: #650000;
+}
 .email {
   padding: 0.4em;
   position: absolute;
@@ -357,4 +361,15 @@ td {
 .skills_title {
   text-align: center;
   padding: 3rem;
+}
+.logos {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 11px 37px;
+  background-image: url("./Img/alkousa-logo.png");
+  border: 2px solid #201a1a;
+  border-radius: 15px;
 }
